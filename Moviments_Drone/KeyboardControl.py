@@ -1,4 +1,3 @@
-from cv2 import gemm
 from djitellopy import tello
 import KeyBoardPressModule as kpm
 from time import sleep
