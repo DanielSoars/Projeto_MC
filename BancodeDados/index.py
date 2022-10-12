@@ -1,4 +1,4 @@
 
 print('oi')
-print("Daniel")
+print("Dan")
 
