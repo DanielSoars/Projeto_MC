@@ -5,11 +5,8 @@
 }
 
 body{
-<<<<<<< HEAD:TelCadastro/estilo.css
     background: url(./Telafundo.jpg);
-=======
     background: url(./imagem.jpg);
->>>>>>> 2e5693f2b82fe41d023d0a9392e7ffc3df7c4484:TelaLogin/estilo.css
     background-size: cover;
     display: flex;
     justify-content: center;
