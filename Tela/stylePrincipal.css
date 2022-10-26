@@ -18,6 +18,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 30px;
+  margin-top: 0.5rem;
 }
 
 .cabecalho-imagem {
@@ -39,9 +40,11 @@ body {
 .conteudo {
   margin-bottom: 300px;
   border-top: 0.8px solid #FFF2E7;
+  margin-top: 2.0rem;
 }
 
 .conteudo-principal {
+  margin-top: 2.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -86,6 +89,7 @@ body {
 .rodape {
     padding: 320px;
     border-top: 0.4px solid #FFF2E7;
+    
 }
 .conteudo-principal-escrito-botao {
   background-color: #ECD6C4;
@@ -105,6 +109,7 @@ body {
 }
 
 .rodape {
+    margin-top: 3.0rem;
     padding: 32px;
     border-top: 0.4px solid #FFF2E7;
 }
