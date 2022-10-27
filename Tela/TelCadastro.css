@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
 * {
     padding: 0;
     margin: 0;
@@ -8,33 +8,20 @@
 
 body {
     width: 100%;
-    height: 100px;
-    left: 0%;
-    display: flex;
-    justify-content: center;
-    
-    background: #d4d4dc4d;
-}
-
-.container {
-    width: 90%;
-    height: 90vh;
-    display:flex;
-    
-}
-
-.form-image {
-    width: 0%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fde3a700;
-    padding: 1rem;
+    background: #0c0ce94d;
 }
 
-.form-image img {
-    width: 3rem;
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
 }
+
 
 .form {
     width: 50%;
@@ -42,7 +29,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(255, 255, 255);
     padding: 3rem;
 }
 
@@ -160,6 +147,7 @@ body {
 }
 
 .continue-button button:hover {
+    
     background-color: #6b63fff1;
 }
 
@@ -207,4 +195,5 @@ body {
     .gender-input {
         margin-top: 0.5rem;
     }
+    
 }
