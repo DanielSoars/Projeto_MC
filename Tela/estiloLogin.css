@@ -65,6 +65,8 @@ input:focus{
 
 .center{
     text-align: center;
+    border: none;
+    padding: 10px;
 }
 
 
@@ -82,17 +84,13 @@ button{
 }
 
 button:hover{
-    background: rgba(255, 0, 0, 0.459);
+    background: rgba(255, 157, 0, 0.813);
 }
 
 div a{
     text-decoration: none;
     color: white;
     transition: .25s ease-in-out;
-}
-
-div a:hover{
-    color:#26a96a;
 }
 
 input:not(:placeholder-shown){
