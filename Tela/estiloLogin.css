@@ -5,8 +5,8 @@
 }
 
 body{
-    background: url(./Telafundo.jpg);
-    background: url(./Telafundo.jpg);
+    
+    background: linear-gradient(68.15deg, #58383e 16.62%, #ddebf0 85.61%);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -16,7 +16,7 @@ body{
 
 .container{
     width: 350px;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(35, 36, 36, 0.5);
     border-radius: 20% 0;
     box-shadow: 1px 2px 20px #000, 2px 6px 50px #000;
     padding: 50px 20px;
@@ -76,16 +76,22 @@ button{
     padding: 15px 50px;
     border-radius: 20px;
     color: white;
-    text-transform: uppercase;
+    text-transform: none;
     border:2px solid white;
     margin: 20px;
     cursor: pointer;
-    transition: ease-in-out .25s;
+    transition: ease-in-out.25s;
 }
+
+
+
 
 button:hover{
     background: rgba(255, 157, 0, 0.813);
 }
+
+
+
 
 div a{
     text-decoration: none;

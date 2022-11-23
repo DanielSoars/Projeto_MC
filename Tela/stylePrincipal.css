@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #58383e 16.62%, #ddebf0 85.61%);
+  background: linear-gradient(68.15deg, #c9b8bb 16.62%, #3092b6 85.61%);
 }
 
 .cabecalho {
@@ -17,18 +17,18 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
-  margin-top: 0.5rem;
+  padding: 5px;
+  margin-top: 0.05rem;
 }
 
-.cabecalho-imagem {
-  height: 80px;
-}
 
 .cabecalho-menu {
-  display: flex;
-  gap: 15px;
+  display: flex !important;
+  gap: 40px;
+
+  
 }
+
 
 .cabecalho-menu-item {
   font-family: 'Sarala', sans-serif;
@@ -46,7 +46,7 @@ body {
 .conteudo-principal {
   margin-top: 2.5rem;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   justify-content: space-around;
 }
@@ -71,11 +71,11 @@ body {
   color: #ECD6C4;
 }
 .conteudo-principal-escrito-menu {
-  background-color: #ECD6C4;
-  width: 80px;
+  background-color: transparent;
+  width: 200px;
   height: 60px;
   border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 4px 5px 4px rgba(158, 30, 30, 0.25);
   border-radius: 70px;
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
