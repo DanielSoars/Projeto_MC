@@ -1,11 +1,8 @@
 from django.db import models
 
+class Cadastro(models.Model):
+    nome = models.CharField(max_length=30)
+    usuario = models.CharField(max_length=30)
+    senha = models.CharField(max_length=30)
+    confirmarsenha = models.CharField(max_length=30)
 
-class Person(models.Model):
-    first_name = models.CharField(max_length=30)
-    last_name = models.CharField(max_length=30)
-
-
-
-
-# Create your models here.
